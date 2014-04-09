@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CFD5B68618F29F8100693918"
-               BuildableName = "SVGParse.app"
-               BlueprintName = "SVGParse"
-               ReferencedContainer = "container:SVGParse.xcodeproj">
+               BuildableName = "SignatureSVGDemo.app"
+               BlueprintName = "SignatureSVGDemo"
+               ReferencedContainer = "container:SignatureSVGDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CFD5B6AA18F29F8200693918"
-               BuildableName = "SVGParseTests.xctest"
-               BlueprintName = "SVGParseTests"
-               ReferencedContainer = "container:SVGParse.xcodeproj">
+               BuildableName = "SignatureSVGDemoTests.xctest"
+               BlueprintName = "SignatureSVGDemoTests"
+               ReferencedContainer = "container:SignatureSVGDemo.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CFD5B68618F29F8100693918"
-            BuildableName = "SVGParse.app"
-            BlueprintName = "SVGParse"
-            ReferencedContainer = "container:SVGParse.xcodeproj">
+            BuildableName = "SignatureSVGDemo.app"
+            BlueprintName = "SignatureSVGDemo"
+            ReferencedContainer = "container:SignatureSVGDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CFD5B68618F29F8100693918"
-            BuildableName = "SVGParse.app"
-            BlueprintName = "SVGParse"
-            ReferencedContainer = "container:SVGParse.xcodeproj">
+            BuildableName = "SignatureSVGDemo.app"
+            BlueprintName = "SignatureSVGDemo"
+            ReferencedContainer = "container:SignatureSVGDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CFD5B68618F29F8100693918"
-            BuildableName = "SVGParse.app"
-            BlueprintName = "SVGParse"
-            ReferencedContainer = "container:SVGParse.xcodeproj">
+            BuildableName = "SignatureSVGDemo.app"
+            BlueprintName = "SignatureSVGDemo"
+            ReferencedContainer = "container:SignatureSVGDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

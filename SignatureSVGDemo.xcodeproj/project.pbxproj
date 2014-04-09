@@ -37,14 +37,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CFD5B68718F29F8100693918 /* SVGParse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SVGParse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFD5B68718F29F8100693918 /* SignatureSVGDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SignatureSVGDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFD5B68A18F29F8100693918 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CFD5B68C18F29F8100693918 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		CFD5B68E18F29F8100693918 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		CFD5B69218F29F8100693918 /* SVGParse-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SVGParse-Info.plist"; sourceTree = "<group>"; };
+		CFD5B69218F29F8100693918 /* SignatureSVGDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SignatureSVGDemo-Info.plist"; sourceTree = "<group>"; };
 		CFD5B69418F29F8100693918 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CFD5B69618F29F8100693918 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CFD5B69818F29F8100693918 /* SVGParse-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SVGParse-Prefix.pch"; sourceTree = "<group>"; };
+		CFD5B69818F29F8100693918 /* SignatureSVGDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SignatureSVGDemo-Prefix.pch"; sourceTree = "<group>"; };
 		CFD5B69918F29F8100693918 /* SYBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYBAppDelegate.h; sourceTree = "<group>"; };
 		CFD5B69A18F29F8100693918 /* SYBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYBAppDelegate.m; sourceTree = "<group>"; };
 		CFD5B69D18F29F8100693918 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
@@ -52,9 +52,9 @@
 		CFD5B6A218F29F8100693918 /* SYBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYBViewController.h; sourceTree = "<group>"; };
 		CFD5B6A318F29F8100693918 /* SYBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYBViewController.m; sourceTree = "<group>"; };
 		CFD5B6A518F29F8100693918 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		CFD5B6AB18F29F8200693918 /* SVGParseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SVGParseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFD5B6AB18F29F8200693918 /* SignatureSVGDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SignatureSVGDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFD5B6AC18F29F8200693918 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		CFD5B6B418F29F8200693918 /* SVGParseTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SVGParseTests-Info.plist"; sourceTree = "<group>"; };
+		CFD5B6B418F29F8200693918 /* SignatureSVGDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SignatureSVGDemoTests-Info.plist"; sourceTree = "<group>"; };
 		CFD5B6B618F29F8200693918 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CFD5B6B818F29F8200693918 /* SVGParseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SVGParseTests.m; sourceTree = "<group>"; };
 		CFD5B6CB18F2A57D00693918 /* SYBSignatureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYBSignatureView.h; sourceTree = "<group>"; };
@@ -90,8 +90,8 @@
 		CFD5B67E18F29F8100693918 = {
 			isa = PBXGroup;
 			children = (
-				CFD5B69018F29F8100693918 /* SVGParse */,
-				CFD5B6B218F29F8200693918 /* SVGParseTests */,
+				CFD5B69018F29F8100693918 /* SignatureSVGDemo */,
+				CFD5B6B218F29F8200693918 /* SignatureSVGDemoTests */,
 				CFD5B68918F29F8100693918 /* Frameworks */,
 				CFD5B68818F29F8100693918 /* Products */,
 			);
@@ -100,8 +100,8 @@
 		CFD5B68818F29F8100693918 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CFD5B68718F29F8100693918 /* SVGParse.app */,
-				CFD5B6AB18F29F8200693918 /* SVGParseTests.xctest */,
+				CFD5B68718F29F8100693918 /* SignatureSVGDemo.app */,
+				CFD5B6AB18F29F8200693918 /* SignatureSVGDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -117,7 +117,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CFD5B69018F29F8100693918 /* SVGParse */ = {
+		CFD5B69018F29F8100693918 /* SignatureSVGDemo */ = {
 			isa = PBXGroup;
 			children = (
 				CFD5B6C718F2A51600693918 /* source */,
@@ -131,33 +131,35 @@
 				CFD5B6A518F29F8100693918 /* Images.xcassets */,
 				CFD5B69118F29F8100693918 /* Supporting Files */,
 			);
+			name = SignatureSVGDemo;
 			path = SVGParse;
 			sourceTree = "<group>";
 		};
 		CFD5B69118F29F8100693918 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				CFD5B69218F29F8100693918 /* SVGParse-Info.plist */,
+				CFD5B69218F29F8100693918 /* SignatureSVGDemo-Info.plist */,
 				CFD5B69318F29F8100693918 /* InfoPlist.strings */,
 				CFD5B69618F29F8100693918 /* main.m */,
-				CFD5B69818F29F8100693918 /* SVGParse-Prefix.pch */,
+				CFD5B69818F29F8100693918 /* SignatureSVGDemo-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		CFD5B6B218F29F8200693918 /* SVGParseTests */ = {
+		CFD5B6B218F29F8200693918 /* SignatureSVGDemoTests */ = {
 			isa = PBXGroup;
 			children = (
 				CFD5B6B818F29F8200693918 /* SVGParseTests.m */,
 				CFD5B6B318F29F8200693918 /* Supporting Files */,
 			);
+			name = SignatureSVGDemoTests;
 			path = SVGParseTests;
 			sourceTree = "<group>";
 		};
 		CFD5B6B318F29F8200693918 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				CFD5B6B418F29F8200693918 /* SVGParseTests-Info.plist */,
+				CFD5B6B418F29F8200693918 /* SignatureSVGDemoTests-Info.plist */,
 				CFD5B6B518F29F8200693918 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -184,9 +186,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CFD5B68618F29F8100693918 /* SVGParse */ = {
+		CFD5B68618F29F8100693918 /* SignatureSVGDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CFD5B6BC18F29F8200693918 /* Build configuration list for PBXNativeTarget "SVGParse" */;
+			buildConfigurationList = CFD5B6BC18F29F8200693918 /* Build configuration list for PBXNativeTarget "SignatureSVGDemo" */;
 			buildPhases = (
 				CFD5B68318F29F8100693918 /* Sources */,
 				CFD5B68418F29F8100693918 /* Frameworks */,
@@ -196,14 +198,14 @@
 			);
 			dependencies = (
 			);
-			name = SVGParse;
+			name = SignatureSVGDemo;
 			productName = SVGParse;
-			productReference = CFD5B68718F29F8100693918 /* SVGParse.app */;
+			productReference = CFD5B68718F29F8100693918 /* SignatureSVGDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CFD5B6AA18F29F8200693918 /* SVGParseTests */ = {
+		CFD5B6AA18F29F8200693918 /* SignatureSVGDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CFD5B6BF18F29F8200693918 /* Build configuration list for PBXNativeTarget "SVGParseTests" */;
+			buildConfigurationList = CFD5B6BF18F29F8200693918 /* Build configuration list for PBXNativeTarget "SignatureSVGDemoTests" */;
 			buildPhases = (
 				CFD5B6A718F29F8200693918 /* Sources */,
 				CFD5B6A818F29F8200693918 /* Frameworks */,
@@ -214,9 +216,9 @@
 			dependencies = (
 				CFD5B6B118F29F8200693918 /* PBXTargetDependency */,
 			);
-			name = SVGParseTests;
+			name = SignatureSVGDemoTests;
 			productName = SVGParseTests;
-			productReference = CFD5B6AB18F29F8200693918 /* SVGParseTests.xctest */;
+			productReference = CFD5B6AB18F29F8200693918 /* SignatureSVGDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -234,7 +236,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CFD5B68218F29F8100693918 /* Build configuration list for PBXProject "SVGParse" */;
+			buildConfigurationList = CFD5B68218F29F8100693918 /* Build configuration list for PBXProject "SignatureSVGDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -247,8 +249,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CFD5B68618F29F8100693918 /* SVGParse */,
-				CFD5B6AA18F29F8200693918 /* SVGParseTests */,
+				CFD5B68618F29F8100693918 /* SignatureSVGDemo */,
+				CFD5B6AA18F29F8200693918 /* SignatureSVGDemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -301,7 +303,7 @@
 /* Begin PBXTargetDependency section */
 		CFD5B6B118F29F8200693918 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CFD5B68618F29F8100693918 /* SVGParse */;
+			target = CFD5B68618F29F8100693918 /* SignatureSVGDemo */;
 			targetProxy = CFD5B6B018F29F8200693918 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -430,14 +432,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SVGParse/SVGParse-Prefix.pch";
+				GCC_PREFIX_HEADER = "SVGParse/SignatureSVGDemo-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"${SDKROOT}/usr/include/libxml2",
 				);
-				INFOPLIST_FILE = "SVGParse/SVGParse-Info.plist";
+				INFOPLIST_FILE = "SVGParse/SignatureSVGDemo-Info.plist";
 				OTHER_LDFLAGS = "-lxml2";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SignatureSVGDemo;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -448,14 +450,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SVGParse/SVGParse-Prefix.pch";
+				GCC_PREFIX_HEADER = "SVGParse/SignatureSVGDemo-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"${SDKROOT}/usr/include/libxml2",
 				);
-				INFOPLIST_FILE = "SVGParse/SVGParse-Info.plist";
+				INFOPLIST_FILE = "SVGParse/SignatureSVGDemo-Info.plist";
 				OTHER_LDFLAGS = "-lxml2";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SignatureSVGDemo;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -475,8 +477,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "SVGParseTests/SVGParseTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "SVGParseTests/SignatureSVGDemoTests-Info.plist";
+				PRODUCT_NAME = SignatureSVGDemoTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -493,8 +495,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SVGParse/SVGParse-Prefix.pch";
-				INFOPLIST_FILE = "SVGParseTests/SVGParseTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "SVGParseTests/SignatureSVGDemoTests-Info.plist";
+				PRODUCT_NAME = SignatureSVGDemoTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -503,7 +505,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CFD5B68218F29F8100693918 /* Build configuration list for PBXProject "SVGParse" */ = {
+		CFD5B68218F29F8100693918 /* Build configuration list for PBXProject "SignatureSVGDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CFD5B6BA18F29F8200693918 /* Debug */,
@@ -512,7 +514,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		CFD5B6BC18F29F8200693918 /* Build configuration list for PBXNativeTarget "SVGParse" */ = {
+		CFD5B6BC18F29F8200693918 /* Build configuration list for PBXNativeTarget "SignatureSVGDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CFD5B6BD18F29F8200693918 /* Debug */,
@@ -521,7 +523,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		CFD5B6BF18F29F8200693918 /* Build configuration list for PBXNativeTarget "SVGParseTests" */ = {
+		CFD5B6BF18F29F8200693918 /* Build configuration list for PBXNativeTarget "SignatureSVGDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CFD5B6C018F29F8200693918 /* Debug */,

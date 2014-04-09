@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:SVGParse.xcodeproj">
+      location = "self:SignatureSVGDemo.xcodeproj">
    </FileRef>
 </Workspace>
