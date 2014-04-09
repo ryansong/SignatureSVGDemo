@@ -22,6 +22,8 @@
 		CFD5B6AF18F29F8200693918 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD5B68E18F29F8100693918 /* UIKit.framework */; };
 		CFD5B6B718F29F8200693918 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CFD5B6B518F29F8200693918 /* InfoPlist.strings */; };
 		CFD5B6B918F29F8200693918 /* SVGParseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD5B6B818F29F8200693918 /* SVGParseTests.m */; };
+		CFD5B6CD18F2A57D00693918 /* SYBSignatureView.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD5B6CC18F2A57D00693918 /* SYBSignatureView.m */; };
+		CFD5B71318F3D48900693918 /* SYBSVGXMLDoc.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD5B71218F3D48900693918 /* SYBSVGXMLDoc.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,10 @@
 		CFD5B6B418F29F8200693918 /* SVGParseTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SVGParseTests-Info.plist"; sourceTree = "<group>"; };
 		CFD5B6B618F29F8200693918 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CFD5B6B818F29F8200693918 /* SVGParseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SVGParseTests.m; sourceTree = "<group>"; };
+		CFD5B6CB18F2A57D00693918 /* SYBSignatureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYBSignatureView.h; sourceTree = "<group>"; };
+		CFD5B6CC18F2A57D00693918 /* SYBSignatureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYBSignatureView.m; sourceTree = "<group>"; };
+		CFD5B71118F3D48900693918 /* SYBSVGXMLDoc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYBSVGXMLDoc.h; sourceTree = "<group>"; };
+		CFD5B71218F3D48900693918 /* SYBSVGXMLDoc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYBSVGXMLDoc.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +120,8 @@
 		CFD5B69018F29F8100693918 /* SVGParse */ = {
 			isa = PBXGroup;
 			children = (
+				CFD5B6C718F2A51600693918 /* source */,
+				CFD5B6C218F2A4D900693918 /* drawView */,
 				CFD5B69918F29F8100693918 /* SYBAppDelegate.h */,
 				CFD5B69A18F29F8100693918 /* SYBAppDelegate.m */,
 				CFD5B69C18F29F8100693918 /* Main_iPhone.storyboard */,
@@ -153,6 +161,24 @@
 				CFD5B6B518F29F8200693918 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CFD5B6C218F2A4D900693918 /* drawView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = drawView;
+			sourceTree = "<group>";
+		};
+		CFD5B6C718F2A51600693918 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				CFD5B6CB18F2A57D00693918 /* SYBSignatureView.h */,
+				CFD5B6CC18F2A57D00693918 /* SYBSignatureView.m */,
+				CFD5B71118F3D48900693918 /* SYBSVGXMLDoc.h */,
+				CFD5B71218F3D48900693918 /* SYBSVGXMLDoc.m */,
+			);
+			name = source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,6 +281,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFD5B6A418F29F8100693918 /* SYBViewController.m in Sources */,
+				CFD5B6CD18F2A57D00693918 /* SYBSignatureView.m in Sources */,
+				CFD5B71318F3D48900693918 /* SYBSVGXMLDoc.m in Sources */,
 				CFD5B69718F29F8100693918 /* main.m in Sources */,
 				CFD5B69B18F29F8100693918 /* SYBAppDelegate.m in Sources */,
 			);
@@ -346,6 +374,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"${SDKROOT}/usr/include/libxml2",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -379,6 +412,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"${SDKROOT}/usr/include/libxml2",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -393,7 +431,12 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SVGParse/SVGParse-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"${SDKROOT}/usr/include/libxml2",
+				);
 				INFOPLIST_FILE = "SVGParse/SVGParse-Info.plist";
+				OTHER_LDFLAGS = "-lxml2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -406,7 +449,12 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SVGParse/SVGParse-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"${SDKROOT}/usr/include/libxml2",
+				);
 				INFOPLIST_FILE = "SVGParse/SVGParse-Info.plist";
+				OTHER_LDFLAGS = "-lxml2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -462,7 +510,7 @@
 				CFD5B6BB18F29F8200693918 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		CFD5B6BC18F29F8200693918 /* Build configuration list for PBXNativeTarget "SVGParse" */ = {
 			isa = XCConfigurationList;
@@ -471,6 +519,7 @@
 				CFD5B6BE18F29F8200693918 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
 		};
 		CFD5B6BF18F29F8200693918 /* Build configuration list for PBXNativeTarget "SVGParseTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +528,7 @@
 				CFD5B6C118F29F8200693918 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
